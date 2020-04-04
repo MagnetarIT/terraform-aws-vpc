@@ -67,7 +67,7 @@ Reach out to me at one of the following places!
 
 - Website at <a href="https://magnetarconsulting.co.uk" target="_blank">`magnetarconsulting.co.uk`</a>
 - Twitter at <a href="https://twitter.com/magnetarIT" target="_blank">`@magnetarIT`</a>
-- LinkedIn at <a href="hhttps://www.linkedin.com/company/magnetar-it-consulting" target="_blank">`magnetar-it-consulting`</a>
+- LinkedIn at <a href="https://www.linkedin.com/company/magnetar-it-consulting" target="_blank">`magnetar-it-consulting`</a>
 
 ---
 
