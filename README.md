@@ -43,6 +43,7 @@ The module will create the below resources using Terraform:
 | instance\_tenancy | A tenancy option for instances launched into the VPC | `string` | `"default"` | no |
 | name | Name  (e.g. `app` or `cluster`) | `string` | n/a | yes |
 | namespace | Namespace (e.g. `cp` or `cloudposse`) | `string` | `""` | no |
+| tags | Additional tags (e.g. `map('BusinessUnit','XYZ')` | `map(string)` | `{}` | no |
 
 ---
 
@@ -59,6 +60,7 @@ The module will create the below resources using Terraform:
 | vpc\_id | The ID of the VPC |
 | vpc\_ipv6\_association\_id | The association ID for the IPv6 CIDR block |
 | vpc\_main\_route\_table\_id | The ID of the main route table associated with this VPC |
+
 ---
 
 ## Support
