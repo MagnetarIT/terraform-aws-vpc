@@ -15,6 +15,12 @@ variable "name" {
   type        = string
 }
 
+variable "tags" {
+  type        = map(string)
+  default     = {}
+  description = "Additional tags (e.g. `map('BusinessUnit','XYZ')`"
+}
+
 variable "cidr_block" {
   type        = string
   description = "CIDR for the VPC"

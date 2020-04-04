@@ -3,6 +3,7 @@ module "naming" {
   namespace   = var.namespace
   environment = var.environment
   name        = var.name
+  tags        = var.tags
 }
 
 resource "aws_vpc" "default" {
