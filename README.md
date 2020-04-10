@@ -3,6 +3,9 @@
 # terraform-aws-vpc
 Terraform (>= 0.12.0) module to create a [AWS VPC](https://docs.aws.amazon.com/vpc/index.html) 
 
+[![Build Status](https://dev.azure.com/MagnetarIT/terraform-aws-vpc/_apis/build/status/MagnetarIT.terraform-aws-vpc?branchName=master)](https://dev.azure.com/MagnetarIT/terraform-aws-vpc/_build/latest?definitionId=14&branchName=master) ![Latest Release](https://img.shields.io/github/release/MagnetarIT/terraform-aws-vpc.svg)
+
+
 - [Intro](#Intro)
 - [Providers](#Providers)
 - [Inputs](#Inputs)
