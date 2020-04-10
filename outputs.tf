@@ -1,5 +1,5 @@
 output "igw_id" {
-  value       = aws_internet_gateway.default.*.id
+  value       = join("", aws_internet_gateway.default.*.id)
   description = "The ID of the Internet Gateway"
 }
 
