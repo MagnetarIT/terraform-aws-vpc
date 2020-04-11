@@ -37,7 +37,6 @@ module "vpc" {
   environment                             = "test"
   name                                    = "vpc"
   create_aws_internet_gateway             = true
-  create_aws_egress_only_internet_gateway = true
 } 
 
 ```

@@ -23,12 +23,6 @@ resource "aws_internet_gateway" "default" {
   tags   = module.naming.tags
 }
 
-resource "aws_egress_only_internet_gateway" "default" {
-  count  = var.create_aws_egress_only_internet_gateway ? 1 : 0
-  vpc_id = aws_vpc.default.id
-  tags   = module.naming.tags
-}
-
 # If `aws_default_security_group` is not defined, it would be created implicitly with access `0.0.0.0/0`
 resource "aws_default_security_group" "default" {
   count  = var.enable_default_security_group_with_custom_rules ? 1 : 0

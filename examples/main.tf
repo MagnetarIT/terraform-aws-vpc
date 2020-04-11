@@ -3,11 +3,10 @@ provider "aws" {
 }
 
 module "vpc" {
-  source                                  = "git::https://github.com/MagnetarIT/terraform-aws-vpc.git?ref=tags/0.1.0"
+  source                                  = "../"
   cidr_block                              = "10.250.0.0/16"
   namespace                               = "mag"
   environment                             = "test"
   name                                    = "vpc"
   create_aws_internet_gateway             = true
-  create_aws_egress_only_internet_gateway = true
 } 
