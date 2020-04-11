@@ -67,3 +67,9 @@ variable "create_aws_internet_gateway" {
   description = "A boolean flag to create an Internet Gateway for the VPC"
   default     = false
 }
+
+variable "create_aws_egress_only_internet_gateway" {
+  type        = bool
+  description = "A boolean flag to create an Egress Only Internet Gateway for the VPC"
+  default     = false
+}
